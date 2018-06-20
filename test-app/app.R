@@ -15,7 +15,7 @@ library(lattice)
 library(sf)
 library(tidyverse)
 
-df_dots <- data.table::fread("~/projects/census_data/tidy_data/map_data.csv") %>% 
+df_dots <- data.table::fread(here::here("census-map-data.csv") %>% 
   mutate(pop_colour = fct_rev(fct_infreq(lang)))
 
 df_dots[df_dots == ""] <- NA_character_
