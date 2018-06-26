@@ -116,7 +116,7 @@ ui <- shinyUI(fluidPage(
     })
     
     observeEvent(input$addRow, {
-      values$df_tracker <- add_row(values$DF, 
+      values$df_tracker <- add_row(values$df_tracker, 
          event_id = stringi::stri_rand_strings(1, 10), 
          date = Sys.Date(), 
          time = as.character(Sys.time()))
