@@ -1,0 +1,8 @@
+"event_id","game_id","player_id","event","date","time"
+"aw6mifncNj",NA,NA,NA,2018-06-25,"2018-06-25 10:16:23"
+"H4gMHPFXC6",1,1,"Succesful zone entry",2018-06-25,"2018-06-25 09:25:54"
+"cQOuOqXlAE",1,2,"Failed zone entry",2018-06-25,"2018-06-25 09:25:54"
+"hXgt93qiB8",1,3,"Shot close",2018-06-25,"2018-06-25 09:25:54"
+"mCP9wFUfP7",1,4,"Shot in traffic",2018-06-25,"2018-06-25 09:25:54"
+"IzLUvxpt7n",1,2,"Shot in traffic",2018-06-25,"2018-06-25 09:29:33"
+"mBsT3yHuUa",1,3,"Shot close",2018-06-25,"2018-06-25 09:38:13"
