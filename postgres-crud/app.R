@@ -24,7 +24,7 @@ con <- dbxConnect(
    host = "tmcmanus.c2z3qgvuwrq7.ca-central-1.rds.amazonaws.com",
    port = "5432",
    user = "tmcmanus", 
-   password = "tamer3(>closure")
+   password = "dev-guest")
 
 df_tracker <- dbxSelect(con, "select * from game_events_demo") %>% 
    mutate(event = as.factor(event))
